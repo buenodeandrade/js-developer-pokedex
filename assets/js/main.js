@@ -56,7 +56,7 @@ loadMoreButton.addEventListener('click', () => {
 
 function showDetail(id){ 
     const [pokeDetail] = currentPokemons.filter((pokemon) => pokemon.number == id )
-    let modal = document.querySelector('#modalShowDatail')
+    let modal = document.querySelector('#modalShowDetail')
     
     fetch(pokeDetail.urlDetail)
     .then((response) => response.json())
@@ -74,7 +74,7 @@ function showDetail(id){
     
     
 
-function createModalPokemon(pokemon, datail){  
+function createModalPokemon(pokemon, detail){  
     return`
         <div class="modal-dialog">
             <div class="modal-content">
@@ -102,19 +102,19 @@ function createModalPokemon(pokemon, datail){
 
                     <div class="modal-detail">
                         <div class="modal-detail-content">
-                            <h6>🪄 Efeitos </h6>
-                            <p class="textInfo text">${datail.effect_entries[0].effect} </p>
+                            <h6> Efects </h6>
+                            <ul class="textInfo text">${detail.effect_entries[0].effect} </ul>
                             <hr>
 
-                            <h6>🐱 Geração </h6>
-                            <p class="textInfo">${datail.generation.name} </p>
+                            <h6> Generation </h6>
+                            <ul class="textInfo">${detail.generation.name} </ul>
                             <hr>
 
-                            <h6>🥷🏽 Experiência </h6>
-                            <p class="textInfo">XP-${pokemon.experience} </p>
+                            <h6> XP </h6>
+                            <ul class="textInfo">${pokemon.experience} </ul>
                             <hr>
 
-                            <h6>🏹 Habilidades </h6>
+                            <h6> Habilities </h6>
                             <ul>
                                 ${pokemon.abilities.map((abilitie) => `<li class="textInfo">${abilitie}</li>`).join('')}
                             </ul>
