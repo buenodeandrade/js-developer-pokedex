@@ -6,9 +6,10 @@
 Successfully completed on January 5, 2024, representing approximately 68 hours of work.
 
 ## Languages
-| Languages |                                               |
-|-----------|:---------------------------------------------:|
-| HTML      | https://html.com/                             |
-| CSS       | https://www.w3.org/Style/CSS/Overview.en.html |  
+| Languages  |                                               |
+|------------|:---------------------------------------------:|
+| HTML       | https://html.com/                             |
+| CSS        | https://www.w3.org/Style/CSS/Overview.en.html |
+| Javascript | https://www.javascript.com/                   |
 
 ## https://web.dio.me/track/coding-future-banco-pan-desenvolvimento-frontend-com-angular
