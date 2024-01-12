@@ -6,7 +6,7 @@
 Successfully completed on January 5, 2024, representing approximately 68 hours of work.
 
 ## Languages
-| Languages  |                                               |
+| Languages  | Official documentation                        |
 |------------|:---------------------------------------------:|
 | HTML       | https://html.com/                             |
 | CSS        | https://www.w3.org/Style/CSS/Overview.en.html |
